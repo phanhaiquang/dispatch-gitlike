@@ -2,3 +2,16 @@ Init data for starting a Dispatch-GitLike script
 
 Use libraries from 
 https://github.com/hdanak/Dispatch-GitLike
+
+Usage:
+
+./go 
+Possible commands:
+        help
+        test
+
+./go test               -> 'go-test' script is executed
+Possible commands:
+        help
+        run
+        setup
