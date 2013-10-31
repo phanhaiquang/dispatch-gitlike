@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+use v5.12;
+use lib 'lib';
+use Dispatch::GitLike;
+
+Dispatch::GitLike->new( commands => {
+    run   => sub { printf "this is run sub"; },
+    setup => sub { printf "this is setup sub"}
+})->run(@ARGV)
